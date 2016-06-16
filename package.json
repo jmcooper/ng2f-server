@@ -1,0 +1,19 @@
+{
+  "name": "ng2f-server",
+  "version": "0.0.1",
+  "description": "An express server for use in an Angular 2 Fundamentals course",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jmcooper/ng2f-server.git"
+  },
+  "author": "Jim Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcooper/ng2f-server/issues"
+  },
+  "homepage": "https://github.com/jmcooper/ng2f-server#readme"
+}
