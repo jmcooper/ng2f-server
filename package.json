@@ -1,6 +1,6 @@
 {
   "name": "ng2f-server",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An express server for use in an Angular 2 Fundamentals course",
   "main": "server/server.js",
   "scripts": {
