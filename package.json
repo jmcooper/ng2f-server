@@ -1,6 +1,6 @@
 {
   "name": "ng2f-server",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "An express server for use in an Angular 2 Fundamentals course",
   "main": "server/server.js",
   "scripts": {
@@ -19,12 +19,10 @@
     "cookie-parser": "1.4.1",
     "express": "4.13.4",
     "express-session": "1.13.0",
-    "morgan": "1.7.0"  
+    "morgan": "1.7.0"
   },
   "bugs": {
     "url": "https://github.com/jmcooper/ng2f-server/issues"
   },
   "homepage": "https://github.com/jmcooper/ng2f-server#readme"
 }
-
-
