@@ -6,7 +6,7 @@ var express = require('express'),
     session = require('express-session'),
     path = require('path');
 
-var rootPath = path.normalize(__dirname + '/../');
+var rootPath = path.normalize(__dirname + '/../../');
 
 module.exports = function(app) {
   // app.use(logger('tiny'));
