@@ -33,10 +33,10 @@ module.exports = function(app) {
   });
 
   app.get('/events/*', function(req, res) {
-    res.sendFile(path.resolve(__dirname + '/../index.html'));
+    res.sendFile(path.resolve(__dirname + '/../../index.html'));
   });
   app.get('/profile', function(req, res) {
-    res.sendFile(path.resolve(__dirname + '/../index.html'));
+    res.sendFile(path.resolve(__dirname + '/../../index.html'));
   });
   
   app.get('*', function(req, res) {
