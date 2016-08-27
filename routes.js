@@ -38,6 +38,9 @@ module.exports = function(app) {
   app.get('/profile', function(req, res) {
     res.sendFile(path.resolve(__dirname + '/../../index.html'));
   });
+  app.get('/404', function(req, res) {
+    res.sendFile(path.resolve(__dirname + '/../../index.html'));
+  });
   
   app.get('*', function(req, res) {
     console.log('404 error', req.path);
