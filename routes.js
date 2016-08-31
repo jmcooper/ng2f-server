@@ -35,7 +35,7 @@ module.exports = function(app) {
   app.get('/events/*', function(req, res) {
     res.sendFile(path.resolve(__dirname + '/../../index.html'));
   });
-  app.get('/profile', function(req, res) {
+  app.get('/user/*', function(req, res) {
     res.sendFile(path.resolve(__dirname + '/../../index.html'));
   });
   app.get('/404', function(req, res) {
